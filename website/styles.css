@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar input[type="search"] {
+    padding: 5px;
+}
+.navbar .user-icon {
+    background-color: #555;
+    padding: 10px;
+    border-radius: 50%;
+}
+.main {
+    padding: 20px;
+}
+.new-collection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-collection .text {
+    max-width: 50%;
+}
+.new-collection .text h1 {
+    font-size: 2em;
+}
+.new-collection .text p {
+    font-size: 1em;
+    color: #666;
+}
+.new-collection .text button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.new-collection .phone {
+    max-width: 40%;
+}
+.new-collection .phone img {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+}
+.about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.about-us .text {
+    max-width: 50%;
+}
+.about-us .text h2 {
+    font-size: 1.5em;
+}
+.about-us .text p {
+    font-size: 1em;
+    color: #666;
+}
+.about-us .logo {
+    max-width: 300px; /* Adjust the size as needed */
+    height: auto;
+}
+
+img {
+    max-width: 100%; /* Изображение не выйдет за пределы родителя */
+    height: auto; /* Сохраняет пропорции */
+    display: block; /* Убирает лишние отступы */
+}
+
+/* Дополнительный контроль размеров для изображений в конкретных секциях */
+.new-collection .phone img {
+    max-width: 300px; /* Задайте необходимый размер */
+    height: auto;
+}
+
+.about-us .logo img {
+    max-width: 200px; /* Например, уменьшите логотип */
+    height: auto;
+}
